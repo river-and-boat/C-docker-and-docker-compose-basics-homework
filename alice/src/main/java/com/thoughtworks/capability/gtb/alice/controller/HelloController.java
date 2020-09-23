@@ -11,7 +11,7 @@ public class HelloController {
 
     private final RestTemplate restTemplate;
 
-    private final static String HOST_BOB = "http://127.0.0.1:8081/hello";
+    private final static String HOST_BOB = "http://bob:8081/hello";
 
     public HelloController(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
